@@ -1,0 +1,153 @@
+.main-contacts{
+	padding: 91px 20px 50px;
+}
+
+.contacts-title{
+	font-style: normal;
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 39px;
+	margin-bottom: 15px;
+	text-align: center;
+	color: var(--titleColor);
+}
+
+#map {
+	height: 176px;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.contacts-container{
+	display: flex; 
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.contacts-container .contacts-details{
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+
+.contacts-container .contacts-details .block-details{
+	display: flex;
+	flex-direction: column;
+}
+
+.contacts-container .contacts-details .block-details .det-title{
+	margin-bottom: 5px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	color: var(--titleColor);
+}
+
+.contacts-container .contacts-details .block-details a{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 5px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	transition: color 0.3s ease;
+}
+
+.contacts-container .contacts-details .block-details a:hover{
+	color: #707070;
+}
+
+.contacts-container .contacts-details .block-details a img{
+	margin-right: 5px;
+	width: 25px;
+	height: 25px;
+}
+
+.contacts-container .contacts-details .block-details.tel a img{
+	width: 20px;
+	height: 20px;
+}
+
+.contacts-container .contacts-details .block-details .mass-media{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.contacts-container .contacts-details .block-details:not(:last-of-type){
+	margin-bottom: 15px;
+}
+
+@media screen and (min-width: 700px){
+	.main-contacts{
+		padding: 125px 50px 70px;
+	}
+}
+
+@media screen and (min-width: 1200px){	
+	.contacts-title{
+		margin-bottom: 50px;
+	}
+	
+	#map {
+		height: 423px;
+		width: 765px;
+		margin-bottom: 0px;
+	}
+	
+	.contacts-container{
+		width: 100%;
+		display: flex; 
+		flex-direction: row-reverse;
+		align-items: flex-start;
+		justify-content: center;
+	}
+
+	.contacts-container .contacts-details{
+		margin-right: 40px;
+	}
+
+	.contacts-container .contacts-details .block-details .mass-media a{
+		margin-right: 7px;
+	}
+	
+	.contacts-container .contacts-details .block-details:not(:last-of-type){
+		margin-bottom: 35px;
+	}
+}
+
+@media screen and (min-width: 1350px){
+	.contacts-title{
+		font-style: normal;
+		font-weight: 600;
+		font-size: 64px;
+		line-height: 78px;
+	}
+	
+	.contacts-container .contacts-details .block-details .det-title{
+		font-style: normal;
+		font-weight: 500;
+		font-size: 32px;
+		line-height: 39px;
+	}
+	
+	.contacts-container .contacts-details .block-details a{
+		font-style: normal;
+		font-weight: 400;
+		font-size: 32px;
+		line-height: 39px;
+	}
+
+	.contacts-container .contacts-details .block-details a img{
+		width: 35px;
+		height: 35px;
+	}
+
+	.contacts-container .contacts-details .block-details.tel a img{
+		width: 30px;
+		height: 30px;
+	}
+}

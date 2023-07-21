@@ -1,0 +1,140 @@
+.club-photos{
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 91px 39px 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.club-photos .block-photo{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.club-photos .block-photo .photos img{
+	width: 284px;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+@media screen and (min-width: 700px){
+	.club-photos{
+		padding: 125px 39px 50px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+}
+
+@media screen and (min-width: 1280px){
+	.club-photos .block-photo .photos{
+		margin-bottom: 0px;
+	}
+
+	.club-photos .block-photo .photos:not(:last-of-type){
+		margin-right: 25px;
+	}
+
+	.club-photos .block-photo{
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: flex-start;
+		margin-bottom: 20px;
+	}
+
+	.block-photo .photo-1-1 img,
+	.block-photo .photo-1-2 img,
+	.block-photo .photo-1-3 img{
+		height: 426px!important;
+	}
+
+	.block-photo .photo-1-1 img{
+		width: 284px!important;
+	}
+
+	.block-photo .photo-1-2 img{
+		width: 639px!important;
+	}
+
+	.block-photo .photo-1-3 img{
+		width: 284px!important;
+	}
+
+	.block-photo .photo-2-1 img,
+	.block-photo .photo-2-2 img,
+	.block-photo .photo-2-3 img{
+		height: 398px!important;
+	}
+
+	.block-photo .photo-2-1 img{
+		width: 596px!important;
+	}
+
+	.block-photo .photo-2-2 img{
+		width: 330px!important;
+	}
+
+	.block-photo .photo-2-3 img{
+		width: 284px!important;
+	}
+
+	.block-photo .photo-3-1 img,
+	.block-photo .photo-3-2 img,
+	.block-photo .photo-3-3 img{
+		height: 424px!important;
+	}
+
+	.block-photo .photo-3-1 img{
+		width: 302px!important;
+	}
+
+	.block-photo .photo-3-2 img{
+		width: 282px!important;
+	}
+
+	.block-photo .photo-3-3 img{
+		width: 626px!important;
+	}
+
+	.block-photo .photo-4-1 img,
+	.block-photo .photo-4-2 img,
+	.block-photo .photo-4-3 img{
+		height: 528px!important;
+	}
+
+	.block-photo .photo-4-1 img{
+		width: 352px!important;
+	}
+
+	.block-photo .photo-4-2 img{
+		width: 467px!important;
+	}
+
+	.block-photo .photo-4-3 img{
+		width: 393px!important;
+	}
+
+	.block-photo .photo-5-1 img{
+		width: 1260px!important;
+		height: 736px!important;
+	}
+
+	.block-photo .photo-6-1 img,
+	.block-photo .photo-6-2 img{
+		height: 416px!important;
+	}
+
+	.block-photo .photo-6-1 img{
+		width: 620px!important;
+	}
+
+	.block-photo .photo-6-2 img{
+		width: 615px!important;
+	}
+}
